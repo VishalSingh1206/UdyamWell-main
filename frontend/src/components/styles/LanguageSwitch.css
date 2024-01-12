@@ -1,0 +1,47 @@
+.language-switcher {
+    position: relative;
+    
+  }
+  
+  .btn-language {
+    cursor: pointer;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: inherit;
+	font-family: inherit;
+	border: none;
+	color: black;
+	font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    z-index: 1;
+  }
+  
+  .language-dropdown button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    min-width: 110px;
+	box-shadow: 8px 8px 5px 0 rgba(0,0,0,0.2);
+	background-color: #fff;
+  }
+  
+  .language-dropdown button:hover {
+    background-color: green;
+    color: white;
+  }
+  
